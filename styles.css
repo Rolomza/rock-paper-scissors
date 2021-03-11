@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: rgb(16, 135, 159);
+    border: 1px solid black;
+    border-radius: 15px;
+    outline: none;
+}
