@@ -4,11 +4,38 @@ body {
     background-color: darkgrey;
 }
 
-.game-container {
+.title-bar {
+    height: 150px;
+    width: 100%;
+    background-color: teal;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 3.5rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     min-height: 100vh;
+    flex-direction: column;
+}
+
+.score {
+    margin-top: 3rem;
+    font-size: 40px;
+}
+
+.total-points {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.btn-container {
+    margin-top: 3rem;
 }
 
 .btn {
